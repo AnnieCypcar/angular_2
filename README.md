@@ -1,8 +1,8 @@
 # Angular 2 Simple Sample
 An Angular 2 starter sample simple single page application.
 
-### This simple sample is ready to load with just the index.html and app.js, but if you wish to expand and develop, instructions follow below.
-
+*This simple sample is ready to load with just the index.html and app.js, but if you wish to expand and develop, instructions follow below.
+*
 
 Install Node
 

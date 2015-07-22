@@ -5,7 +5,9 @@ An Angular 2 starter sample simple single page application.
 
 2. Install TypeScript definitions via DefinitelyTyped.
 
+'''
 	$ npm install -g tsd@^0.6.0
+'''
 
 3. Install ES6 Shim for browser support.
 

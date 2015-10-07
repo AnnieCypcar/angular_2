@@ -21,3 +21,13 @@
     position: relative;
     margin: 10% auto;
 }
+
+.button-close {
+    color: #fff;
+    background-color: rgba(0,0,0,0);
+    border: none;
+    position: absolute;
+    right: 20px;
+    top: 20px;
+    font-size: 20px;
+}

@@ -25,7 +25,7 @@ Install TypeScript.
 Run the TypeScript compiler.
 
 ```
-	$ tsc --watch -m commonjs -t es5 --emitDecoratorMetadata *.ts
+	$ tsc --watch
 ```
 
 Install and run a local server.

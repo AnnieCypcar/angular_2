@@ -2,21 +2,18 @@
 
 import {Component, View, bootstrap} from 'angular2/angular2';
 
-// Annotation section
 @Component({
-  selector: 'my-app'
+  selector: 'modal-button'
 })
 @View({
-  template: 
-  	'<h1>Hello {{ name }}</h1>'
+  template: '<button>Click Me</button>'
 })
 // Component controller
-class MyAppComponent {
+class ModalComponent {
   name: string;
-  
   constructor() {
-    this.name = 'Angular 2 Modal';
+    this.onclick = function () { alert('opened'); };
   }
 }
 
-bootstrap(MyAppComponent);
+bootstrap(ModalComponent);

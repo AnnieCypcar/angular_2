@@ -6,14 +6,13 @@ import {Component, View, bootstrap} from 'angular2/angular2';
   selector: 'modal-button'
 })
 @View({
-  template: '<button>Click Me</button>'
+  template: '<button (click)="openModal()">Click Me</button>'
 })
 // Component controller
 class ModalComponent {
-  name: string;
-  constructor() {
-    this.onclick = function () { alert('opened'); };
-  }
+    openModal() { 
+    	alert('opened'); 
+    }
 }
 
 bootstrap(ModalComponent);

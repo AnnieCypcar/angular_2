@@ -1,5 +1,5 @@
 # Angular 2 Simple Modal
-An Angular 2 starter simple single page application with modal.
+An Angular 2 simple single page application with modal.
 
 Install Node
 
